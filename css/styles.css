@@ -372,6 +372,11 @@ img {
 /*--------section portfolio-------- */
 
 /*--------section footer-------- */
+.page-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #2e2f42;
+}
 
 .container-footer {
   display: flex;
@@ -382,10 +387,8 @@ img {
   margin-right: 120px;
 }
 
-.page-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #2e2f42;
+.icon-list {
+  gap: 16px;
 }
 
 .footer-logo {
@@ -403,6 +406,7 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
+
 .page-footer-text-media {
   font-size: 16px;
   line-height: 1.5;
@@ -411,8 +415,15 @@ img {
   color: #ffffff;
   margin-bottom: 16px;
 }
+
 .footer-icon {
   width: 24px;
   height: 24px;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+  background-color: #31d0aa;
+  cursor: pointer;
 }
 /*--------section footer-------- */
